@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Quarzo Rosa", "category": "Cristallo", "price": 29, "available": true },
+  { "id": 2, "name": "Ametista", "category": "Cristallo", "price": 34, "available": true }
+]

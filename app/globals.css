@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; }
+html, body { height: 100%; background: #F8F7F5; }
+.card { @apply bg-white rounded-2xl border border-black/5 shadow-sm; }
+.kpi { @apply card p-4 flex items-center justify-between; }
+.badge-dot { @apply inline-block w-2 h-2 rounded-full mr-2; }
+.navbar { @apply sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-black/5; }
+.bottom-tabs { @apply fixed bottom-0 left-0 right-0 bg-white border-t border-black/10; }
+.tab-btn { @apply flex-1 py-2.5 text-xs text-neutral-700 flex flex-col items-center gap-1; }
+.input { @apply w-full bg-white border border-black/10 rounded-xl px-3 py-2 outline-none; }
+.btn { @apply inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-brand-700 text-white; }
+.btn-ghost { @apply inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-white border border-black/10; }
+.section { @apply px-4 py-4; }
